@@ -242,9 +242,9 @@ def fuerza_bruta(arr):
 				minimo = k               # T(n) = 1
 	return minimo                        
 ```
-$
+$`
 	T(n) \in O(n^{2})
-$
+`$
 
 ### **Complejidad Computacional: Algoritmo por Divide & Conquer**
 
@@ -263,9 +263,9 @@ graph TD;
 	L2_2-->D(1);
 ```
 
-$
+$`
 	T(n) = n + n + n... = \sum_{i=0}^{log_{2}(n)} n = n + n.log_{2}(n) \in O(n.log_{2}(n)) 
-$
+$`
 
 ## Evaluación a Posteriori
 ___
